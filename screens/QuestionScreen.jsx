@@ -94,6 +94,7 @@ const QuestionScreen = ({navigation}) => {
     mainQuestion();
   }, [themaSelect]);
 
+
   const Main = () => {
     return (
       <>
@@ -108,7 +109,7 @@ const QuestionScreen = ({navigation}) => {
         </View>
 
         <View
-          className="w-full justify-center items-center h-80 mb-10 "
+          className="w-full justify-center items-center h-96 mb-5"
           style={{ gap: 15 }}
         >
           {questionActual && questionActual.respuestas
@@ -124,8 +125,7 @@ const QuestionScreen = ({navigation}) => {
             : null}
         </View>
         <View
-          className="h-20 w-full flex-row items-center justify-center mt-4 "
-          style={{ gap: 15 }}
+          className="h-20 w-full flex-row items-center justify-center mt-4"
         >
           <Btn
             text={"Responder"}

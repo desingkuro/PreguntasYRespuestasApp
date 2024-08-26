@@ -11,9 +11,7 @@ const MyModal = ({ visible, callBack, counter, limit, incorrectas,correctas }) =
   const sizeStar = 60;
   const colorStar = Colors.amarillo;
   let porcentaje = parseInt((correctas / limit) * 100);
-  console.log(porcentaje);
 
-  //console.log(solution);
   function respuestas() {
     return (
       <View className="items-center justify-center" style={{ width: "90%" }}>

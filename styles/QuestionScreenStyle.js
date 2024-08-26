@@ -20,9 +20,9 @@ export const QuestionScreenStyle = StyleSheet.create({
     alignItems:'center'
   },
   containeQuestion: {
-    height: 180,
+    height: 110,
     width: "100%",
-    marginTop:40,
+    marginTop:20,
     alignItems:'center',
     justifyContent:'center',
     padding:12,
